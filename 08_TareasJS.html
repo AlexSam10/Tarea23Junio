@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 08</title>
+	<script>
+		//alerta del precio del helado
+    alert("El Helado sin Topping vale $20 pesos");
+   //declaracion del precio del elando como entero
+    var helado=parseInt(('20'));
+    //declaracion de otra variable para guaradar el resultado final del helado con topping
+    var precio;
+    //Se le pide al usuario si quiere el helado con topping o no
+    var dec=parseInt(prompt("¿Deseas tu helado con Topping?  1= Si, 2=No"));
+    //sentencia if, donde si escoge 1... se hara todo lo que este contenga
+    if (dec==1) {
+    	//se le pide al usuario que tipo de topping quiere
+    var categoria=parseInt(prompt("Tenemos: 1: Oreo, 2: Kitkat, 3: Cajeta, 4:ChocoNuez... Escoje un número!"));   
+    switch(categoria){
+    	case 1:
+    	//se hace la formula para sacar el precio final del helado
+    	precio=helado+10;
+    	//se da una alerta del precio final de su helado
+    	alert("El precio de tu helado es de $"+precio+" pesos");
+    	//se rompre el la condicional
+    	break;
+    	case 2:
+    	precio=helado+15;
+    	alert("El precio de tu helado es de $"+precio+" pesos");
+    	break;
+    	case 3:
+    	precio=helado+10;
+    	alert("El precio de tu helado es de $"+precio+" pesos");
+    	break;
+    	case 4:
+    	precio=helado+20;
+    	alert("El precio de tu helado es de $"+precio+" pesos");
+    	break;
+    }
+    }
+    //si se escoge que no=2, entonces el precio del helado es el mismo
+    else if(dec==2){
+    	alert("El precio de tu helado es de $"+helado+" pesos");
+    }
+	</script>
+ 
+</head>
+<body>
+					<ul class="navbar-nav menuh">
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="01_TareasJS.html">Tarea 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="02_TareasJS.html">Tarea 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="03_TareasJS.html">Tarea 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="04_TareasJS.html">Tarea 4</a></li>
+				<li class="nav-item"><a class="nav-link" href="05_TareasJS.html">Tarea 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="06_TareasJS.html">Tarea 6</a></li>
+				<li class="nav-item"><a class="nav-link" href="07_TareasJS.html">Tarea 7</a></li>
+				<li class="nav-item"><a class="nav-link" href="08_TareasJS.html">Tarea 8</a></li>
+				<li class="nav-item"><a class="nav-link" href="09_TareasJS.html">Tarea 9</a></li>
+				<li class="nav-item"><a class="nav-link" href="10_TareasJS.html">Tarea 10</a></li>				
+			</ul>
+	<!-- Creamos un Id para h1, para que despues sea mandado en el function-->
+	<h1 >Tarea 08 con JavaSsript</h1>
+
+</body>
+</html>

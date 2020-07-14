@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 10</title>
+	<script>
+		//se crea la variable para escoger si quiefres o no pregunarte de nievo si quieres viajar
+var dot;
+//se crea la sentencia ciclica de hacer todos esto, si se escoge la opcion Si
+do{
+//se pregunta al usuario  si quieres viajar con un Prompt
+	var viaje=parseInt(prompt("¿Quieres viajar 1=Si, 2==No"));
+	//se crea una sentencia condicioanl para la pregunta de arriba y si escoge 1 se hara lo que hay dentro de ella
+	if (viaje==1) {
+		//se pregunta al usuario en que mes le gustaria viajar del 1 al 12 , sabiendio que existen 12 meses existentes
+	var mes=parseInt(prompt("¿En que mes te gustaria viajar? Del 1 al 12"));
+// se crea otra sentencia condicional dependiendo del mes elegido esta hara su funcion y se mostrará en una alerta
+    switch(mes){
+   
+    	case 1:
+    	case 2:
+    	case 3:
+    	case 4:
+    	case 5:
+    	// se crean las alertas con los respectivos destinos y costos del viaje de pendiendo del mes
+    	// se creo hasta el 6 porque del 1-5 llevara la misma informacion por eso no se agrego tampoco el break...la informacion se pasa igual hasta donde se encuentre el case con un break
+    	case 6:
+    	    alert("Los viajes encontrados en este mes son:");
+    	    alert("Cancun con un costo de $7, 000.00");
+    	    alert("Disneylandia con un costo de $12, 000.00 ");
+    	    alert("Ixtapa con un costo de $5, 000.00");
+    	    alert("Las vegas con un costo de $12, 000.00 ");
+    	break;
+    	case 7:
+    	case 8:
+    	case 9:
+    	case 10:
+    	case 11:
+    	case 12:
+    	    alert("Los viajes encontrados en este mes son:");
+    	    alert("Cancun con un costo de $10, 000.00");
+    	    alert("Disneylandia con un costo de $20, 000.00 ");
+    	    alert("Ixtapa con un costo de $8, 000.00");
+    	    alert("Las vegas con un costo de $18, 000.00 ");
+    	break;
+    	// un alerta de que no existe el mes asignado
+        default:
+        alert("Este mes no existe");
+    }
+		}
+		//se crea una alerta prompt donde te pide si quieres que te pregunte de nuevo
+		dot=prompt("¿Quieres que te pregunte de nuevo si quieres viajar? Si/No");
+	}//mienntras se cumpla la sencia si, se hara todo lo dicho de el mismo
+      while(dot=="Si");
+
+	</script>
+</head>
+<body>
+					<ul class="navbar-nav menuh">
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="01_TareasJS.html">Tarea 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="02_TareasJS.html">Tarea 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="03_TareasJS.html">Tarea 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="04_TareasJS.html">Tarea 4</a></li>
+				<li class="nav-item"><a class="nav-link" href="05_TareasJS.html">Tarea 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="06_TareasJS.html">Tarea 6</a></li>
+				<li class="nav-item"><a class="nav-link" href="07_TareasJS.html">Tarea 7</a></li>
+				<li class="nav-item"><a class="nav-link" href="08_TareasJS.html">Tarea 8</a></li>
+				<li class="nav-item"><a class="nav-link" href="09_TareasJS.html">Tarea 9</a></li>
+				<li class="nav-item"><a class="nav-link" href="10_TareasJS.html">Tarea 10</a></li>				
+			</ul>
+	<!-- Creamos un Id para h1, para que despues sea mandado en el function-->
+	<h1 >Tarea 10 con JavaSsript</h1>
+
+</body>
+</html>

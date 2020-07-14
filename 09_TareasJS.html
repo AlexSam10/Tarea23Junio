@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 09</title>
+	<script>
+		//declaracion de variable para Si/No
+		var dot;
+		do{
+		//se pide al usuario su fecha de nacimiento
+		var dec=parseInt(prompt("¿Cuál es tu fecha de nacimiento"));
+		// se hace una sentencia condicional si la fecha que ingresa corresponde a lo que pide se hara dicha funcion en ella
+		if (dec>=1949 && dec<=1968){
+			//se muestra el resultado si es que el valor arrojado es corresponde con lo que pide y esto pasa con las demas sentencias
+			alert("Usted se encuentra en la generación Baby Boom!");
+		}
+		else if (dec>=1969 && dec<=1980) {
+			alert("Usted se encuentra en la generación X!");
+		}
+		else if (dec>=1981 && dec<=1993) {
+			alert("Usted se encuentra en la generación Y!");
+		}
+		else if (dec>=1994 && dec<=2010) 
+			{alert("Usted se encuentra en la generación Z!");
+	    }
+	    //se crea una pregunta en una alerta para saber si quieres saber tu generacion
+	    dot=prompt("¿Quieres que te pregunte de nuevo tu  generación? Si/No");
+	}
+	//el while sirve para para ver si se cumple lo que se pide lo hara, o no
+	while(dot==="Si");
+	</script>
+</head>
+<body>
+					<ul class="navbar-nav menuh">
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="01_TareasJS.html">Tarea 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="02_TareasJS.html">Tarea 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="03_TareasJS.html">Tarea 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="04_TareasJS.html">Tarea 4</a></li>
+				<li class="nav-item"><a class="nav-link" href="05_TareasJS.html">Tarea 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="06_TareasJS.html">Tarea 6</a></li>
+				<li class="nav-item"><a class="nav-link" href="07_TareasJS.html">Tarea 7</a></li>
+				<li class="nav-item"><a class="nav-link" href="08_TareasJS.html">Tarea 8</a></li>
+				<li class="nav-item"><a class="nav-link" href="09_TareasJS.html">Tarea 9</a></li>
+				<li class="nav-item"><a class="nav-link" href="10_TareasJS.html">Tarea 10</a></li>				
+			</ul>
+	<h1 >Tarea 09 con JavaSsript</h1>
+
+</body>
+</html>

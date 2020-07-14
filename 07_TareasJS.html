@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 07</title>
+	<script>
+		//declaramos nuestras variables
+    var porc;
+    var total;
+    //declaramos nuestras variables y preguntamos al usuario
+	var saldo =parseInt(prompt("¿Cuál es tu saldo?"));
+    var categoria=parseInt(prompt("¿Cuál es tu categoria?"));
+    //Utilizamos el Switch para escoger la categoria que arroje el usuario
+    switch(categoria){
+    	//Se realiza las respectivas operaciones de cada caso
+    	case 1:
+    	     //se realiza la operacion `para sacar el valor del porciento respectivo a su sueldo`
+    	     porc=(saldo*15)/100;
+    	     //se suma el porciento con el saldo para sacar su nuevo saldo total
+    	     total=saldo+porc;
+    	     //Te muestra la categoria con una ventana
+    	     alert("Tu categoria es: "+categoria);
+    	     //Te muestra su nuevo saldo con otra ventana
+    	     alert("Tu nuevo saldo es de $"+total+" pesos");
+    	break;
+    	case 2:
+    	     porc=(saldo*10)/100;
+    	     total=saldo+porc;
+    	     alert("Tu categoria es: "+categoria);
+    	     alert("Tu nuevo saldo es de $"+total+" pesos");
+    	break;
+    	case 3:
+    	     porc=(saldo*8)/100;
+    	     total=saldo+porc;
+    	     alert("Tu categoria es: "+categoria);
+    	     alert("Tu nuevo saldo es de $"+total+" pesos");
+    	break;
+    	case 4:
+    	     porc=(saldo*7)/100;
+    	     total=saldo+porc;
+    	     alert("Tu categoria es: "+categoria);
+    	     alert("Tu nuevo saldo es de $"+total+" pesos");
+    	break;
+        default:
+        alert("Esta categoria no existe");
+    }
+
+	</script>
+</head>
+<body>
+					<ul class="navbar-nav menuh">
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="01_TareasJS.html">Tarea 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="02_TareasJS.html">Tarea 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="03_TareasJS.html">Tarea 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="04_TareasJS.html">Tarea 4</a></li>
+				<li class="nav-item"><a class="nav-link" href="05_TareasJS.html">Tarea 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="06_TareasJS.html">Tarea 6</a></li>
+				<li class="nav-item"><a class="nav-link" href="07_TareasJS.html">Tarea 7</a></li>
+				<li class="nav-item"><a class="nav-link" href="08_TareasJS.html">Tarea 8</a></li>
+				<li class="nav-item"><a class="nav-link" href="09_TareasJS.html">Tarea 9</a></li>
+				<li class="nav-item"><a class="nav-link" href="10_TareasJS.html">Tarea 10</a></li>				
+			</ul>
+	<!-- Creamos un Id para h1, para que despues sea mandado en el function-->
+	<h1 >Tarea 07 con JavaSsript</h1>
+
+</body>
+</html>

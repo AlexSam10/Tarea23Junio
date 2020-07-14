@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tarea 06</title>
+	<script>
+       //Declaramos nuestro contador iniciado en 0
+       var sum=0;
+       //Declaramos nuestra variable i
+       var i;
+       //Declaramos el otro contador para la suma de los pares que hay del 1 al 100 iniciando en 0
+       var son=0;
+       //Realizamos nuestro ciclo for y nuestra sentencia condicional if para realizar lo dicho
+       //iniciamos i a 2 y este terminara cuando sea menor o igual a 100
+       for(i=2;i<=100;i=i+2){
+       	//en la condicional siempre que sea divisible emtre 2 y el residuo sea 0, este numero sera par.
+       		    if (i%2==0) {
+       		    	//mostramos todos los numerosx pares del 1 al 100
+                console.log("El numero: "+i+" es par");
+			}
+			//se realiza nuestra suma(contador)
+           sum=sum+i;
+           //se realiza nuestro contador para la suma de los pares que existen.
+           son=son+1;
+       }
+       //se muestra los numeros pares que hay 
+       console.log("Hay "+son+" numeros pares");
+       //se muestra la suma total de todos los numeros pares del 1 al 100
+       console.log("La suma de los numeros pares del 1 al 100 es: "+sum);
+      
+
+
+		
+	</script>
+</head>
+<body>
+					<ul class="navbar-nav menuh">
+				<li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+				<li class="nav-item"><a class="nav-link" href="01_TareasJS.html">Tarea 1</a></li>
+				<li class="nav-item"><a class="nav-link" href="02_TareasJS.html">Tarea 2</a></li>
+				<li class="nav-item"><a class="nav-link" href="03_TareasJS.html">Tarea 3</a></li>
+				<li class="nav-item"><a class="nav-link" href="04_TareasJS.html">Tarea 4</a></li>
+				<li class="nav-item"><a class="nav-link" href="05_TareasJS.html">Tarea 5</a></li>
+				<li class="nav-item"><a class="nav-link" href="06_TareasJS.html">Tarea 6</a></li>
+				<li class="nav-item"><a class="nav-link" href="07_TareasJS.html">Tarea 7</a></li>
+				<li class="nav-item"><a class="nav-link" href="08_TareasJS.html">Tarea 8</a></li>
+				<li class="nav-item"><a class="nav-link" href="09_TareasJS.html">Tarea 9</a></li>
+				<li class="nav-item"><a class="nav-link" href="10_TareasJS.html">Tarea 10</a></li>				
+			</ul>
+	<!-- Creamos un Id para h1, para que despues sea mandado en el function-->
+	<h1 >Tarea 06 con JavaSsript</h1>
+	<h2>Los resultados de este ejercicio se encuetran en "consola"</h2>
+
+</body>
+</html>
